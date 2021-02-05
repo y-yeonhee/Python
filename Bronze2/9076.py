@@ -10,7 +10,6 @@
 출력
 각 테스트 케이스에 대해서 총점을 한 줄씩 출력한다. 만일 점수 조정을 거쳐서 다시 점수를 매기려고 하는 경우에는 총점 대신 KIN을 출력한다.
 """
-
 T = int(input())
 for _ in range(0, T):
     score = list(map(int, input().split()))
